@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    text-align: center;
+  }
+  .bc {
+    height: 50px;
+    width: 500px;
+  }
+  .test {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(69, 162, 158, 0.5)),
+      to(rgba(102, 252, 241, 0.5))
+    );
+    background-clip: text;
+    height: 30vh;
+  }
+  .icon-test {
+    font-size: 10rem;
+    color: transparent;
+    transition: all 1s;
+  }
+  .icon-test:hover {
+    transform: rotate(720deg);
+  }
+  .Karen {
+    background-color: red;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .background {
+    height: 60vh;
+    width: 95vw;
+  }
